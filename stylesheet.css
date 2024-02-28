@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: #4D4C7D;
+}
+body{
+    background-color: #4D4C7D;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    gap: 30px;
+}
+.dice{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(62, 139, 207);
+    overflow: hidden;
+    border-radius: 5px;
+}
+h1,h2,h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    height: 5rem;
+}
